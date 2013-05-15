@@ -1,0 +1,15 @@
+/* Make sure images aren't too big... */
+img {
+	max-height: 300px;
+}
+
+/* ...unless they should be. */
+img.fullscreen {
+	margin-top: -30px;
+	max-height: 100%;
+}
+
+/* Choose a nice font. */
+.content {
+  font-family: Futura;
+}
